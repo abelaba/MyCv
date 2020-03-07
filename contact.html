@@ -2,11 +2,13 @@
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
-    <title></title>
-  </head>
+    <title>Abel A.</title>
+    <link rel="icon" type="image/ico" href="asset\images\ico.jpg" />
   <body>
+    <hr>
     <a href="index.html">Home</a>
     <a href="contact.html">Contact</a>
+    <a href="gallery.html">Gallery</a>
     <hr>
     <table cellspacing = '10'>
       <tr>
@@ -24,19 +26,40 @@
     <a href="http://www.instagram.com" target="_blank">Instagram</a>
     <hr>
     <form action="mailto:aabelabate@gmail.com" enctype="UTF-8">
-      <label for="firstName">First Name : </label> <input id ="firstName" type="text" name="firstName" value=""><br>
-      <label for="lastName">Last Name : </label> <input id ="lastName" type="text" name="lastName" value=""><br>
-      <label for="email">Email : </label> <input id ="email" type="email" name="email" value=""><br>
-      Where are you from? <br>
-      <select name="country">
-        <option value="">Africa</option>
-        <option value="">Asia</option>
-        <option value="">Europe</option>
+      <table>
+        <tr>
+          <td><label for="firstName">First Name : </label></td>
+          <td><input id ="firstName" type="text" name="firstName" value=""></td>
+        </tr>
+         <tr>
+           <td><label for="lastName">Last Name : </label></td>
+           <td><input id ="lastName" type="text" name="lastName" value=""></td>
+         </tr>
+        <tr>
+          <td><label for="email">Email : </label> </td>
+          <td><input id ="email" type="email" name="email" value=""></td>
+        </tr>
+        <tr>
+          <td>Where are you from?</td>
+          <td>
+            <select name="country">
+              <option value="">Africa</option>
+              <option value="">Asia</option>
+              <option value="">Europe</option>
+            </select>
+        </td>
+        </tr>
+        <tr>
+          <td>What do you want to say?</td>
+          <td><textarea name="detail" rows="8" cols="80"></textarea></td>
+        </tr>
+        <tr>
+          <td><input type="submit" name="" value="Submit"></td>
+        </tr>
 
-      </select> <br>
-      What do you want to say? <br>
-      <textarea name="detail" rows="8" cols="80"></textarea><br>
-      <input type="submit" name="" value="">
+
+      </table>
+
     </form>
 
 
