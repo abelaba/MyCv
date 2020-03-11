@@ -1,0 +1,10 @@
+
+
+Icon added
+
+Updated the contact form to be displayed with table
+
+Added form elements that are relevant
+
+
+Embeded map placed
